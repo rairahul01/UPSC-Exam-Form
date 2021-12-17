@@ -2,6 +2,8 @@ body{
     font-family: "Comic Sans MS",sans-serif;
     color: black;
     background-image: url(./upsc_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
