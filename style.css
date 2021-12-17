@@ -1,0 +1,119 @@
+body{
+    font-family: "Comic Sans MS",sans-serif;
+    color: black;
+    background-image: url(./upsc_2.jpg);
+}
+h1{
+    text-align: center;
+    font-family: "Arial";
+    text-shadow: 0 0 5px red;
+}
+.headerclone{
+    text-align: center;
+    font-family: "Arial";
+    text-shadow: 0 0 10px white;
+    color: blue;
+}
+h3,a{
+    text-align: left;
+}
+sup{
+    color: red;
+}
+p{
+    text-align: center;
+}
+.fa{
+    color: white;
+}
+img {
+    height: 235px;
+    margin: -224px 10px -15px 1250px;
+    opacity: 0.5;
+    border: 2px solid bisque;
+    border-radius: 5px;
+
+
+}
+::placeholder{
+    font-size: 15px;
+    text-align: center;
+}
+fieldset{
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+legend{
+
+    padding: 12px 25px;
+    border: 2px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 20px;
+    color: white;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 5px;
+    color: white;
+}
+input[type='text'],
+input[type='date'],
+input[type='number'],
+input[type='month'],
+input[type='time'],
+input[type='email']{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+
+}
+textarea{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 210px;
+}
+input[type='text']:focus,
+input[type='date']:focus,
+input[type='number']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+textarea:focus{
+    background-color: #dcb692;
+    box-shadow: 0 0 15px darkred;
+}
+.button1{
+    background-image: url("../img/background2.jpg");
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.button2{
+    background-image: url("../img/background2.jpg");
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 20px;
+    color: rgb(223, 27, 27);
+}
+.button1:hover{
+    box-shadow: 0 0 30px rgb(8, 236, 46);
+}
+.button2:hover{
+    box-shadow: 0 0 30px rgb(8, 236, 46);
+}
